@@ -353,7 +353,7 @@ async def get_dialog(tg_client: TelegramClient,
         data += title_string + '\n'
 
         # Строки
-        data += '\n' * 2 + 'СООБЩЕНИЯ:' + '\n' * 2
+        data += '\n' + 'СООБЩЕНИЯ:' + '\n'
         dialog_dict_path = dialog['messages']
         for dialog_message in dialog_dict_path:
             key_value = dialog_message[list(dialog_message.keys())[0]]
