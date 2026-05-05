@@ -31,15 +31,9 @@ touch .env
   # API_HASH =   
   # PROXY_SECRET =  
   # PROXY_IP =  
-  # PROXY_PORT = 
+  # PROXY_PORT =
+pip install -r requirements.txt
 ```
-
-## Зависимости
-
-- telethon
-- opentele2
-- tgcrypto
-- python-dotenv
 
 ## Пример использования
 
